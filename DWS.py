@@ -33,9 +33,7 @@ $R@i.~~ !     :   ~$$$$$B$$en:``
 ?MXT@Wx.~    :     ~"##*$$$$M~"""[:-1]
 
 skull_text = """
-___  _    ____ ____ ___  _   _    ____ ___  ____ _  _ _  _ ____ ____ 
-|__] |    |  | |  | |  \  \_/     [__  |__] |__| |\/| |\/| |___ |__/ 
-|__] |___ |__| |__| |__/   |      ___] |    |  | |  | |  | |___ |  \ 
+DWS
                                                                
 """[1:]
 
@@ -43,12 +41,7 @@ skull = Add.Add(skull, skull_text, center=True)
 Anime.Fade(Center.YCenter(skull), Colors.purple_to_blue, Colorate.Vertical, interval=0.025, time=3)
 
 banner = """
-██████╗    ███████╗    ██╗   ██╗██████╗     ██████╗ 
-██╔══██╗   ██╔════╝    ██║   ██║╚════██╗   ██╔═████╗
-██████╔╝   ███████╗    ██║   ██║ █████╔╝   ██║██╔██║
-██╔══██╗   ╚════██║    ╚██╗ ██╔╝██╔═══╝    ████╔╝██║
-██████╔╝██╗███████║     ╚████╔╝ ███████╗██╗╚██████╔╝
-╚═════╝ ╚═╝╚══════╝      ╚═══╝  ╚══════╝╚═╝ ╚═════╝ 
+DWS
 Destroying webhooks has never been any easier.                                                                                                   
 """
 cringe = "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
@@ -65,9 +58,9 @@ proxies_list = []
 
 def title(text):
 	if os.name == "nt":
-		ctypes.windll.kernel32.SetConsoleTitleW(f"Bloody Spammer V2 | By Bloody | {text}")
+		ctypes.windll.kernel32.SetConsoleTitleW(f"DWS | By DexterMIR | {text}")
 	else:
-		print(f"\33]0;Bloody Spammer V2 | By Bloody | {text}\a", end="", flush=True)
+		print(f"\33]0;Bloody Spammer V2 | By DexterMIR | {text}\a", end="", flush=True)
 
 def logo():
 	if os.name == "nt":
